@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home"
+            android:icon="@drawable/home"/>
+
+        <item
+            android:id="@+id/nav_sveglia"
+            android:title="Sveglia"
+            android:icon="@drawable/sveglia"/>
+
+        <item
+            android:id="@+id/nav_temperatura"
+            android:title="Temperatura"
+            android:icon="@drawable/termometro"/>
+
+        <item
+            android:id="@+id/nav_umidita"
+            android:title="Umidità"
+            android:icon="@drawable/umidita"/>
+
+        <item
+            android:id="@+id/nav_grafici"
+            android:title="Grafici"
+            android:icon="@drawable/graficicon"/>
+
+        <item
+            android:id="@+id/nav_meteo"
+            android:title="Meteo"
+            android:icon="@drawable/meteo"/>
+
+        <item
+            android:id="@+id/nav_impostazioni"
+            android:title="Impostazioni"
+            android:icon="@drawable/impostazioni"/>
+    </group>
+
+
+    <item android:title="Profilo">
+
+        <menu>
+            <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_profile"
+                android:icon="@drawable/profilo"
+                android:title="Profilo" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/logout"
+                android:title="Logout" />
+            </group>
+        </menu>
+    </item>
+
+</menu>

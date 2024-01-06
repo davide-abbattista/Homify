@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Homify</string>
+<!--    <string name="server_client_id" translatable="false">503478933709-8upcdedj06gnmamjntncj877n1fs119k.apps.googleusercontent.com</string>-->
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+</resources>
